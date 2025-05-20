@@ -33,9 +33,11 @@ export const TextReveal = ({ children, className }: TextRevealProps) => {
     <motion.div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className={cn("relative overflow-hidden whitespace-pre", className)}
-    >
-      <div className="overflow-hidden">
+      className={cn(
+        "relative overflow-hidden whitespace-pre  ",
+        className
+      )}>
+      <div className="overflow-hidden ">
         {children.split("").map((char, i) => (
           <motion.span
             initial={{ y: 0 }}
@@ -47,8 +49,7 @@ export const TextReveal = ({ children, className }: TextRevealProps) => {
               transition: { delay: i * 0.02, ease: [0.215, 0.61, 0.355, 1] },
             }}
             key={i}
-            className="inline-block whitespace-"
-          >
+            className="inline-block whitespace-pre ">
             {char}
           </motion.span>
         ))}
@@ -65,8 +66,7 @@ export const TextReveal = ({ children, className }: TextRevealProps) => {
               transition: { delay: i * 0.02, ease: [0.215, 0.61, 0.355, 1] },
             }}
             key={i}
-            className="inline-block whitespace-"
-          >
+            className="inline-block whitespace-">
             {char}
           </motion.span>
         ))}
@@ -89,8 +89,7 @@ export function PerspectiveText({
         animate={{ y: hover ? "-100%" : 0 }}
         layout
         transition={{ delay: 0.2, ease: [0.215, 0.61, 0.355, 1] }}
-        className="py-2"
-      >
+        className="py-2">
         {children}
       </motion.div>
       <motion.div
@@ -98,8 +97,7 @@ export function PerspectiveText({
         animate={{ y: hover ? 0 : "100%" }}
         layout
         transition={{ delay: 0.2, ease: [0.215, 0.61, 0.355, 1] }}
-        className="absolute left-0 top-0 py-2"
-      >
+        className="absolute left-0 top-0 py-2">
         {children}
       </motion.div>
     </motion.div>

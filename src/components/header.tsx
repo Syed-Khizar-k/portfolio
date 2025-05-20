@@ -36,9 +36,9 @@ const Header = ({ social }: HeaderProps) => {
   };
 
   return (
-    <div className="bg-red-700">
-      <motion.header className="fixed top-0 md:mt-12 md:mr-12 right-0 z-20 ">
-      <Transition className="fixed md:top-8 top-6 md:left-8 left-6 z-30 ">
+ 
+      <motion.header className="fixed top-0 m-0  right-0 z-50 px-4 py-10  bg-white/9 backdrop-blur-md backdrop-saturate-150  shadow-md w-full">
+      <Transition className="fixed md:top-8 top-8 md:left-8 left-6 z-30 ">
         <Link href={"/"}>
           <TextReveal className="font-semibold ">ThePortfolio</TextReveal>
         </Link>
@@ -47,8 +47,7 @@ const Header = ({ social }: HeaderProps) => {
         initial={false}
         animate={isActive ? "open" : "closed"}
         variants={variants}
-        className="absolute top-0 right-0 md:-top-6 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-primary"
-      >
+        className="absolute top-0 right-0 md:-top-2 md:-right-6 w-dvw md:w-[480px] h-dvh md:h-[calc(100dvh_-_2.5rem)] bg-primary">
         {isActive && (
           <nav className="flex justify-between flex-col w-full h-full px-10 pt-[100px] pb-[50px]">
             <div className="flex gap-2 flex-col">
@@ -58,12 +57,10 @@ const Header = ({ social }: HeaderProps) => {
                   <div
                     key={`b_${i}`}
                     className=""
-                    onClick={() => setIsActive(false)}
-                  >
+                    onClick={() => setIsActive(false)}>
                     <Link
                       href={href}
-                      className="flex flex-wrap overflow-hidden"
-                    >
+                      className="flex flex-wrap overflow-hidden">
                       <motion.div
                         variants={perspective}
                         custom={i}
@@ -72,22 +69,19 @@ const Header = ({ social }: HeaderProps) => {
                         whileHover="whileHover"
                         whileTap="whileHover"
                         exit="exit"
-                        className="text-5xl text-background flex items-center justify-between"
-                      >
+                        className="text-5xl text-background flex items-center justify-between">
                         <motion.span
                           variants={{
                             initial: { x: -20 },
                             whileHover: { x: 0 },
-                          }}
-                        >
+                          }}>
                           <ArrowUpRight />
                         </motion.span>
                         <motion.span
                           variants={{
                             initial: { x: 0 },
                             whileHover: { x: 20 },
-                          }}
-                        >
+                          }}>
                           {title}
                         </motion.span>
                       </motion.div>
@@ -109,8 +103,7 @@ const Header = ({ social }: HeaderProps) => {
                     initial="initial"
                     animate="enter"
                     exit="exit"
-                    key={_id}
-                  >
+                    key={_id}>
                     <TextReveal>{platform}</TextReveal>
                   </MotionLink>
                 );
@@ -124,9 +117,10 @@ const Header = ({ social }: HeaderProps) => {
         toggleMenu={() => {
           setIsActive(!isActive);
         }}
+        
       />
     </motion.header>
-    </div>
+
   );
 };
 
@@ -140,26 +134,23 @@ function Button({
   toggleMenu: () => void;
 }) {
   return (
-    <div className="absolute md:top-0 top-4 right-4 md:right-0 w-[100px] h-10 rounded-full overflow-hidden cursor-pointer">
+    <div className="absolute md:top-4 top-4 right-4 md:right-6 w-[100px] h-10 rounded-full overflow-hidden cursor-pointer">
       <motion.div
         className="relative w-full h-full"
         animate={{ top: isActive ? "-100%" : "0%" }}
-        transition={{ duration: 0.5, type: "tween", ease: [0.76, 0, 0.24, 1] }}
-      >
+        transition={{ duration: 0.5, type: "tween", ease: [0.76, 0, 0.24, 1] }}>
         <motion.div
           className="bg-primary h-full w-full grid place-items-center text-black"
           onClick={() => {
             toggleMenu();
-          }}
-        >
+          }}>
           <TextReveal>Menu</TextReveal>
         </motion.div>
         <motion.div
           className="bg-black h-full w-full grid place-items-center"
           onClick={() => {
             toggleMenu();
-          }}
-        >
+          }}>
           <TextReveal>Close</TextReveal>
         </motion.div>
       </motion.div>

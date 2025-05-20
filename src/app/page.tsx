@@ -24,9 +24,11 @@ export default async function Home() {
   } = portfolio as Portfolio;
 
   return (
-    <main className="relative">
+    <main className="relative overflow-hidden">
       <Header social={social_handles} />
-      <Hero about={about} />
+    
+     <Hero about={about} />
+   
       <About about={about} timeline={timeline} />
       <Skills skills={skills} />
       <Projects projects={projects} />

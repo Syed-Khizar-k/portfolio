@@ -101,13 +101,13 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
         </SectionHeading>
         <div className="grid md:grid-cols-2 gap-10 md:pt-16">
           <form className="space-y-4" onSubmit={handleSubmit}>
-            <div className="flex gap-4">
-              <Transition className="w-full">
+            <div className="md:flex md:gap-4 ">
+              <Transition className="md:w-full">
                 <Input
                   id="name"
                   name="name"
                   placeholder="Full name"
-                  className="border-0 border-b rounded-none"
+                  className="border-0 border-b rounded-none my-4 md:m-0"
                   required
                   value={formData.name}
                   onChange={handleInputChange}
@@ -184,7 +184,7 @@ const Contact = ({ email, social_handle, about }: ContactProps) => {
               </Transition>
             </div>
 
-            <div className="flex md:gap-8 gap-4 mt-auto md:pb-16">
+            <div className="flex flex-wrap md:gap-8 gap-4 mt-auto md:pb-16">
               {social_handle.map((social, index) =>
                 social.enabled ? (
                   <Transition

@@ -14,7 +14,7 @@ interface HeroProps {
 
 const Hero = ({ about }: HeroProps) => {
   return (
-    <section className="h-dvh w-dvw overflow-hidden relative">
+    <section className="h-dvh md:pt-28 sm:pt-28 w-dvw overflow-hidden relative">
       <Transition>
         <span className="blob size-1/2 absolute top-20 left-0 blur-[100px]" />
       </Transition>
@@ -29,7 +29,7 @@ const Hero = ({ about }: HeroProps) => {
               />
             </Transition>
             <div className="py-6 flex items-center flex-col">
-              <h2 className="md:text-7xl text-4xl font-bold overflow-hidden">
+              <h2 className="md:text-7xl text-4xl font-bold overflow-hidden text-center">
                 <SlideIn>Hello! I&apos;m {about.name}</SlideIn>
               </h2>
               <h1 className="md:text-7xl text-3xl overflow-hidden">
