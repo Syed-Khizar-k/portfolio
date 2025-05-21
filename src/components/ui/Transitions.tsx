@@ -98,7 +98,7 @@ export const OpacityTransition = ({ children }: { children: string }) => {
             transition: { delay: i * 0.02, ease: [0.215, 0.61, 0.355, 1] },
           }}
           key={i}
-          className="inline-block"
+          className="inline"
         >
           {char}
         </motion.span>

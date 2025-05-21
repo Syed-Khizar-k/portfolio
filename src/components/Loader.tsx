@@ -46,7 +46,7 @@ const Loader = ({ setHideLoader }: PageLoadProps) => {
           </Transition>
           <div className="flex justify-between items-end">
             <span className="text-white/30">portfolio is coming...</span>
-            <motion.span className="md:text-9xl text-7xl font-semibold md:font-bold">
+            <motion.span className="md:text-9xl text-7xl bottom-0 font-semibold md:font-bold">
               {counter}%
             </motion.span>
           </div>

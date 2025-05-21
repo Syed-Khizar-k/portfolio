@@ -7,7 +7,7 @@ import { SectionHeading, TextReveal } from "./ui/Typography";
 import { Project } from "../utils/interface";
 import ProjectDialog from "./ProjectDialog";
 import { ArrowUpRight } from "./ui/Icons";
-import Filters from "./filters";
+// import Filters from "./filters";
 import { useVariants } from "../utils/hooks";
 import { SlideIn, Transition } from "./ui/Transitions";
 
@@ -45,11 +45,11 @@ function Projects({ projects }: ProjectsProps) {
         <br />
         <SlideIn>works</SlideIn>
       </SectionHeading>
-      <Filters
+      {/* <Filters
         projects={projects}
         filterValue={filterValue}
         setFilterValue={setFilterValue}
-      />
+      /> */}
 
       <motion.div className="grid md:grid-cols-3 grid-cols-2 md:gap-6 gap-3 relative">
         {filteredProjects
@@ -149,7 +149,7 @@ const Card = ({ title, image }: Project) => {
         width={500}
         height={500}
         alt={title}
-        className="object-cover h-full w-full object-center rounded-xl md:rounded-t-3xl"
+        className="object-cover h-full w-full  rounded-xl md:rounded-t-3xl"
       />
     </motion.div>
   );

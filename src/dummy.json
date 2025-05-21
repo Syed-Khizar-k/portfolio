@@ -32,7 +32,7 @@
   "role": "admin",
   "timeline": [
     {
-      "company_name": "Digital Solutions Co.",
+      "company_name": "AsDevTech",
       "summary": "Contributed to the development of a comprehensive CRM solution for enterprise clients.",
       "sequence": 3,
       "startDate": "2024-12-11T00:00:00.000Z",
@@ -40,13 +40,13 @@
       "jobTitle": " Next.js Developer",
       "jobLocation": " Faisalabad",
       "bulletPoints": [
-        "Played a key role in developing and maintaining static and dynamic webistes.",
-        "\nDesigned and implemented user interfaces using Next.js .",
-        "\nStyled Websites with featuring responsivesness with tailwind , BootStrap , ShadCnUI , FlowBite , SaSS and Core CSS",
-        "\nOptimized websites with speed and SEO Friendly",
-        "\nHandled State Management with Redux Toolkit",
-        "\nImplemented TypeScript for typeSafety and error handling in all projects",
-        "\nParticipated in daily stand-up meetings and sprint planning sessions\n"
+        "✅ Developed responsive, SEO-optimized static and dynamic websites using Next.js, leveraging CSR, SSR, and image/performance optimization for lightning-fast load times.",
+        "\n💡 Converted high-fidelity Figma designs into pixel-perfect UIs using HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, ShadCN UI, Flowbite, and Material UI, ensuring cross-browser compatibility and mobile responsiveness",
+        "\n⚛️ Built interactive, scalable SPAs with React, Next.js, Redux Toolkit, and TypeScript, following modern development standards and best practices",
+        "\n🔧 Strong proficiency in JavaScript (ES6+), DOM/BOM manipulation, and reusable component design for dynamic, maintainable front-end architectures",
+        "\n🚀 Hands-on experience with deployment pipelines using Vercel and Netlify, optimizing Core Web Vitals, and enhancing app performance through code-splitting and lazy loading",
+        "\n🧰 Efficient in debugging, performance profiling, and code refactoring, ensuring smooth user experience and rapid issue resolution during development and post-launch phases",
+        "\n🎯 Integrated Framer Motion for smooth animations and transitions, elevating user interaction and enhancing the visual appeal of modern web apps\n"
       ],
       "forEducation": false,
       "enabled": true,
@@ -61,13 +61,13 @@
       "jobTitle": " Next.js Developer",
       "jobLocation": " Faisalabad",
       "bulletPoints": [
-        "Played a key role in developing and maintaining static and dynamic webistes.",
-        "\nDesigned and implemented user interfaces using Next.js .",
-        "\nStyled Websites with featuring responsivesness with tailwind , BootStrap , ShadCnUI , FlowBite , SaSS and Core CSS",
-        "\nOptimized websites with speed and SEO Friendly",
-        "\nHandled State Management with Redux Toolkit",
-        "\nImplemented TypeScript for typeSafety and error handling in all projects",
-        "\nParticipated in daily stand-up meetings and sprint planning sessions\n"
+        "✅ Developed responsive, SEO-optimized static and dynamic websites using Next.js, leveraging CSR, SSR, and image/performance optimization for lightning-fast load times.",
+        "\n💡 Converted high-fidelity Figma designs into pixel-perfect UIs using HTML5, CSS3, Tailwind CSS, SASS, Bootstrap, ShadCN UI, Flowbite, and Material UI, ensuring cross-browser compatibility and mobile responsiveness",
+        "\n⚛️ Built interactive, scalable SPAs with React, Next.js, Redux Toolkit, and TypeScript, following modern development standards and best practices",
+        "\n🔧 Strong proficiency in JavaScript (ES6+), DOM/BOM manipulation, and reusable component design for dynamic, maintainable front-end architectures",
+        "\n🚀 Hands-on experience with deployment pipelines using Vercel and Netlify, optimizing Core Web Vitals, and enhancing app performance through code-splitting and lazy loading",
+        "\n🧰 Efficient in debugging, performance profiling, and code refactoring, ensuring smooth user experience and rapid issue resolution during development and post-launch phases",
+        "\n🎯 Integrated Framer Motion for smooth animations and transitions, elevating user interaction and enhancing the visual appeal of modern web apps\n"
       ],
       "forEducation": true,
       "enabled": true,
@@ -369,213 +369,169 @@
   ],
   "projects": [
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 14",
-      "sequence": 14,
+      "liveurl": "https://book-library-ochre-iota.vercel.app",
+      "githuburl": "https://github.com/Syed-Khizar-k/book-library",
+      "title": "Book Library Website",
+      "sequence": 1,
       "image": {
         "public_id": "1706285511679-xe7r9t",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285511679-xe7r9t"
+        "url": "/projects/img1.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "A Book Library Dynamic Website made in Next.js with multiple pages . This is an online shop for the purchasing of books",
+      "techStack": [
+        "Reactjs ",
+        " Nextjs ",
+        " TypeScript ",
+        " TailwindCSS",
+        "reduxToolkit"
+      ],
       "_id": "65b3d9c8d017f6b49c778ca7",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 14",
-      "sequence": 15,
+      "liveurl": "https://gen-002.asdev.tech",
+      "githuburl": "https://github.com/devmianharoon/zipiai",
+      "title": "Internet Providers",
+      "sequence": 2,
       "image": {
         "public_id": "1706285468702-igx05q",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285468702-igx05q"
+        "url": "/projects/img2.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "A Project dedicated to find the internet providers near the user . worked on the front end and construct the layout alongwith the backend api integration ",
+      "techStack": [
+        "Reactjs ",
+        " Nextjs ",
+        " ReduxToolkit ",
+        " TailwindCSS",
+        "SaSS",
+        "Framer Motion",
+        "ShadCnUi"
+      ],
       "_id": "65b3d99dd017f6b49c778c86",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 13",
-      "sequence": 13,
+      "liveurl": "https://blogifiers.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/book-library",
+      "title": "Blog Website",
+      "sequence": 3,
       "image": {
         "public_id": "1706285431821-3lfg2r",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285431821-3lfg2r"
+        "url": "/projects/img3.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "A Dynamic Blog website for community develoeprs completed front end constructed in next js  . ",
+      "techStack": [" Nextjs ", " TailwindCSS", "Css", "Optimization", "SEO"],
       "_id": "65b3d978d017f6b49c778c67",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 12",
-      "sequence": 12,
+      "liveurl": "https://torun-agency.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/torun-agency",
+      "title": "Agency Website",
+      "sequence": 4,
       "image": {
         "public_id": "1706285416017-wra7swm",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285416017-wra7swm"
+        "url": "/projects/img4.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "This is an Agency website completely costumized by me  ",
+      "techStack": [" Nextjs ", " CSS", " TailwindCSS", "SaSS", "ShadCnUi"],
       "_id": "65b3d969d017f6b49c778c4a",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 11",
-      "sequence": 11,
+      "liveurl": "https://brandsfort-ecom.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/brandsfort-ecom",
+      "title": "Brands Fort E-Com",
+      "sequence": 5,
       "image": {
         "public_id": "1706285405228-98liol",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285405228-98liol"
+        "url": "/projects/img5.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "Brands Fort is an E-Commerce website with complete front end order making , order placing  along with seller dashboard",
+      "techStack": [
+        "Reactjs ",
+        " Nextjs ",
+        " TailwindCSS",
+        "Framer Motion",
+        " ReduxToolkit "
+      ],
       "_id": "65b3d95dd017f6b49c778c2f",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 10",
-      "sequence": 10,
+      "liveurl": "https://ai-image-gen-sigma.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/practise/tree/main/image-Gen",
+      "title": "Ai Image Generator",
+      "sequence": 6,
       "image": {
         "public_id": "1706285393568-zl9mcc",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285393568-zl9mcc"
+        "url": "/projects/img6.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs "],
+      "description": "This is an Ai Image Generator with the integration of hugging face model api",
+      "techStack": [
+        " Nextjs ",
+        "HuggingFace",
+        "RESTApi",
+        " TailwindCSS",
+        "FlowBite"
+      ],
       "_id": "65b3d952d017f6b49c778c16",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 9",
-      "sequence": 9,
+      "liveurl": "https://hallowen-web.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/practise/tree/main/hallowen",
+      "title": "Cotton Candy Website",
+      "sequence": 7,
       "image": {
         "public_id": "1706285378965-91vbk",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285378965-91vbk"
+        "url": "/projects/img7.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
+      "description": "Cotten Candy React SPA Webiste for the sale of candies a product showcase website also including Ecom type material only front end  ",
+      "techStack": ["Reactjs ", " CSS", "BootStrap"],
       "_id": "65b3d943d017f6b49c778bff",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 8",
+      "liveurl": "https://xploreskills-omega.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/my-tsx",
+      "title": "Xplore Skills ",
       "sequence": 8,
       "image": {
         "public_id": "1706285368529-zdr5fl",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285368529-zdr5fl"
+        "url": "/projects/img8.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs  ", " Mern ", " CSS"],
+      "description": "A simple react based spa website  ",
+      "techStack": ["Reactjs  ", " CSS", " TailwindCSS"],
       "_id": "65b3d938d017f6b49c778bea",
       "enabled": true
     },
     {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 7",
-      "sequence": 7,
+      "liveurl": "https://password-maker-gilt.vercel.app/",
+      "githuburl": "https://github.com/Syed-Khizar-k/practise/tree/main/password-gen",
+      "title": "Password Generator",
+      "sequence": 9,
       "image": {
         "public_id": "1706285357884-3ja6sw",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285357884-3ja6sw"
+        "url": "/projects/img9.png"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs   ", " CSS"],
+      "description": "A simple javascript based random password generator ",
+      "techStack": ["Reactjs   ", " TailwindCSS"],
       "_id": "65b3d92ed017f6b49c778bd7",
       "enabled": true
     },
     {
       "liveurl": "#",
       "githuburl": "#",
-      "title": "Project 6",
-      "sequence": 6,
+      "title": "Blog Webiste",
+      "sequence": 10,
       "image": {
         "public_id": "1706285347449-dniw0h",
         "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285347449-dniw0h"
       },
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": [" Nextjs ", " Mern ", " CSS"],
+      "techStack": [" Nextjs ", " CSS", " TailwindCSS", " TypeScript "],
       "_id": "65b3d923d017f6b49c778bc6",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 5",
-      "sequence": 5,
-      "image": {
-        "public_id": "1706285323287-nt3ya3",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706285323287-nt3ya3"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Mern ", " CSS"],
-      "_id": "65b3d8fed017f6b49c778ba9",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 4",
-      "sequence": 4,
-      "image": {
-        "public_id": "1706284852474-gh2ng",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284852474-gh2ng"
-      },
-      "description": "lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
-      "_id": "65b3d734313a9b09a24a14a3",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 3",
-      "sequence": 3,
-      "image": {
-        "public_id": "1706284839761-ckccdj",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284839761-ckccdj"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
-      "_id": "65b3d728313a9b09a24a1498",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 2",
-      "sequence": 2,
-      "image": {
-        "public_id": "1706284824843-56iakg",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284824843-56iakg"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS ", " TailwindCSS"],
-      "_id": "65b3d719313a9b09a24a148f",
-      "enabled": true
-    },
-    {
-      "liveurl": "#",
-      "githuburl": "#",
-      "title": "Project 1",
-      "sequence": 1,
-      "image": {
-        "public_id": "1706284812399-jr7rqj",
-        "url": "https://portfolio-image-store.s3.ap-south-1.amazonaws.com/1706284812399-jr7rqj"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "techStack": ["Reactjs ", " Nextjs ", " Mern ", " CSS"],
-      "_id": "65b3d70d313a9b09a24a1488",
       "enabled": true
     }
   ],
@@ -736,8 +692,8 @@
       "_id": "65f1fc1f0556c3f887e9d31d"
     }
   ],
-  "createdAt": "2024-01-26T12:14:36.514Z",
-  "updatedAt": "2024-05-08T17:53:29.758Z",
+  "createdAt": "2025-01-26T12:14:36.514Z",
+  "updatedAt": "2025-05-08T17:53:29.758Z",
   "__v": 74,
   "refreshToken": ""
 }
