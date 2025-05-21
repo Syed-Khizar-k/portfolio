@@ -62,8 +62,7 @@ function Projects({ projects }: ProjectsProps) {
               layoutId={project._id}
               onClick={() => {
                 setSelectedProject(project);
-              }}
-            >
+              }}>
               <Card {...project} />
             </Transition>
           ))}
@@ -82,8 +81,7 @@ function Projects({ projects }: ProjectsProps) {
         {filteredProjects.length > numProjectToShow && (
           <button
             className="flex items-center justify-center gap-4 py-3 px-6 rounded-full border mt-6 group relative overflow-hidden"
-            onClick={() => setShowMore(!showMore)}
-          >
+            onClick={() => setShowMore(!showMore)}>
             <TextReveal>{showMore ? "Show less" : "Show more"}</TextReveal>
           </button>
         )}
@@ -112,8 +110,7 @@ const Card = ({ title, image }: Project) => {
       layout
       className="relative rounded-xl md:rounded-3xl overflow-hidden aspect-square bg-secondary/30 md:px-4"
       onMouseEnter={mouseEnter}
-      onMouseLeave={mouseLeave}
-    >
+      onMouseLeave={mouseLeave}>
       <div className="absolute top-2 right-2 w-full h-full flex justify-end md:hidden">
         <div className="bg-white size-8 rounded-full text-black grid place-items-center">
           <ArrowUpRight />
@@ -122,8 +119,7 @@ const Card = ({ title, image }: Project) => {
       <div className="md:py-8 relative">
         <motion.div
           animate={{ y: hover ? -10 : 0 }}
-          className="flex justify-between items-center max-md:hidden"
-        >
+          className="flex justify-between items-center max-md:hidden">
           <p className="text-sm md:text-xl font-semibold max-md:opacity-0">
             {title}
           </p>
@@ -138,9 +134,8 @@ const Card = ({ title, image }: Project) => {
           <motion.p
             initial={{ y: 0, opacity: 0 }}
             animate={{ y: hover ? -10 : 0, opacity: hover ? 1 : 0 }}
-            className="absolute text-white/50"
-          >
-            Lorem ipsum dolor sit amet.
+            className="absolute text-white/50">
+            Front End Website
           </motion.p>
         </div>
       </div>
