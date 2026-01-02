@@ -10,32 +10,31 @@ import Timeline from "@/components/Timeline";
 import { Portfolio } from "@/utils/interface";
 
 export default async function Home() {
-  const portfolio = (await import("@/dummy.json")).default;
+ const portfolio = (await import("@/dummy.json")).default;
 
-  const {
-    about,
-    testimonials,
-    services,
-    skills,
-    projects,
-    social_handles,
-    timeline,
-    email,
-  } = portfolio as Portfolio;
+ const {
+  about,
+  testimonials,
+  services,
+  skills,
+  projects,
+  social_handles,
+  timeline,
+  email,
+ } = portfolio as any;
 
-  return (
-    <main className="relative overflow-hidden">
-      <Header social={social_handles} />
-    
-     <Hero about={about} />
-   
-      <About about={about} timeline={timeline} />
-      <Skills skills={skills} />
-      <Projects projects={projects} />
-      <Services services={services} />
-      <Timeline timeline={timeline} />
-      <Testimonials testimonials={testimonials} />
-      <Contact email={email} social_handle={social_handles} about={about} />
-    </main>
-  );
+ return (
+  <main className="relative overflow-hidden">
+   <Header social={social_handles} />
+
+   <Hero about={about} />
+
+   <About about={about} timeline={timeline} />
+   <Projects projects={projects} />
+   <Skills skills={skills} />
+   <Timeline timeline={timeline} />
+   <Testimonials testimonials={testimonials} />
+   <Contact email={email} social_handle={social_handles} about={about} />
+  </main>
+ );
 }

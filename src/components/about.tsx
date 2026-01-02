@@ -26,9 +26,9 @@ const About = ({ about, timeline }: AboutProps) => {
     >
       <div>
         <h3 className="md:text-5xl text-2xl font-bold overflow-hidden uppercase pb-8">
-          <SlideIn>
+         
             <OpacityTextReveal>{about.quote}</OpacityTextReveal>
-          </SlideIn>
+          
         </h3>
         <Transition
           viewport={{ once: true }}
