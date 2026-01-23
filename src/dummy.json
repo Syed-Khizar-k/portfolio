@@ -301,6 +301,26 @@
    "techStack": ["Reactjs ", " CSS", "BootStrap"],
    "_id": "65b3d943d017f6b49c778bfe",
    "enabled": true
+  },
+  {
+   "liveurl": "https://dosta.ae/",
+   "githuburl": "https://github.com/alphadeveloper12/Dosta",
+   "title": "Dosta UAE",
+   "sequence": 7,
+   "image": {
+    "public_id": "1706285378965-91vbkk",
+    "url": "/projects/Dosta.png"
+   },
+   "description": "A Full Stack Large Scale 125+ Figma Screens Catering and Vending Machine Operating SaaS Platform Build for Dosta.uae . Not Just a Website ! Its a bridging platform between the software and Hardware of vending machines ",
+   "techStack": [
+    "Reactjs ",
+    "TailwindCSS",
+    "Framer Motion",
+    "SqlLite",
+    "Django"
+   ],
+   "_id": "65b3d943d017f6b49c778bfe55",
+   "enabled": true
   }
  ],
  "social_handles": [

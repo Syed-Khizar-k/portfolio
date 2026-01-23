@@ -28,5 +28,12 @@ export const siteConfig = {
   "Web Development",
   "Frontend Developer",
   "JavaScript Expert",
+  "Dosta uae",
+  "Hyperg Internet ",
+  "RocketOps ai Team Member",
+  "AsDevTech",
+  "React Developer Internship",
+  "Shiftsswap management system",
+  "wash&details works",
  ],
 };
