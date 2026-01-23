@@ -10,6 +10,7 @@ import { ArrowUpRight } from "./ui/Icons";
 // import Filters from "./filters";
 import { useVariants } from "../utils/hooks";
 import { SlideIn, Transition } from "./ui/Transitions";
+import NextImage from "next/image";
 
 interface ProjectsProps {
  projects: Project[];
@@ -34,7 +35,7 @@ function Projects({ projects }: ProjectsProps) {
   }
 
   return data.filter((project) =>
-   project.techStack.some((tech) => filterValues === tech.trim())
+   project.techStack.some((tech) => filterValues === tech.trim()),
   );
  };
 
